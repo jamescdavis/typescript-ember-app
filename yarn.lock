@@ -6125,6 +6125,13 @@ typedarray@^0.0.6:
   version "0.0.6"
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
 
+"typescript-ember-addon@https://github.com/jamescdavis/typescript-ember-addon.git#develop#2018-02-26T15:03:59Z":
+  version "0.0.0"
+  resolved "https://github.com/jamescdavis/typescript-ember-addon.git#c433a680c2e1040495e73d7d4ca2f4c6c5fd093a"
+  dependencies:
+    ember-cli-babel "^6.6.0"
+    ember-cli-htmlbars "^2.0.1"
+
 typescript@^2.7.2:
   version "2.7.2"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-2.7.2.tgz#2d615a1ef4aee4f574425cdff7026edf81919836"

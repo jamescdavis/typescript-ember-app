@@ -15,16 +15,25 @@
         "tests/*"
       ],
       "typescript-ember-app/*": [
-        "app/*"
+        "app/*",
+        "node_modules/typescript-ember-addon/app/*"
       ],
       "*": [
         "types/*"
+      ],
+      "typescript-ember-addon": [
+        "node_modules/typescript-ember-addon/addon"
+      ],
+      "typescript-ember-addon/*": [
+        "node_modules/typescript-ember-addon/addon/*"
       ]
     }
   },
   "include": [
     "app",
     "tests",
-    "types"
+    "types",
+    "node_modules/typescript-ember-addon/app",
+    "node_modules/typescript-ember-addon/addon"
   ]
 }
